@@ -39,7 +39,7 @@ public class MenuActivity extends AppCompatActivity {
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent o4=new Intent(getApplicationContext(), MainActivity.class);
+                Intent o4=new Intent(getApplicationContext(), FacebookActivity.class);
                 startActivity(o4);
             }
         });
