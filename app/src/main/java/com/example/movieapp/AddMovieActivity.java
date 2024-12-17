@@ -1,6 +1,8 @@
 package com.example.movieapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -17,6 +19,13 @@ public class AddMovieActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_add_movie);
         b1=(Button) findViewById(R.id.tomenu);
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(getApplicationContext(), MenuActivity.class);
+                startActivity(i);
+            }
+        });
 
     }
 }

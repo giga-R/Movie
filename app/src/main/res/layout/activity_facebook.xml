@@ -2,6 +2,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_margin="10dp"
+    android:layout_marginTop="10dp"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:layout_height="45dp"
         android:layout_width="match_parent"
@@ -26,8 +27,9 @@
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
+                android:background="#12678F"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="15dp"/>
+                android:layout_marginLeft="9dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -43,6 +45,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginTop="10dp"
+                android:background="#123456"
                 android:layout_marginLeft="15dp"/>
             <TextView
                 android:layout_width="match_parent"
@@ -52,5 +55,103 @@
                 android:textColor="@color/black"
                 android:textAlignment="center"/>
         </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="13dp">
+
+        <ImageView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#aaaaaa"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="\t\tWhats on your mind?"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#faaaaa"/>
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tUsername"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="\t5 mins ago"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="This is a sample post content."/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/bg"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#0648fF"
+            android:textSize="18dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:text="Like"/>
+
+        <TextView
+            android:textColor="#0648fF"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="95dp"
+            android:layout_height="50dp"
+            android:text="Comment"/>
+
+        <TextView
+            android:textColor="#0648fF"
+            android:textSize="18dp"
+            android:layout_width="95dp"
+            android:layout_height="50dp"
+            android:text="\tShare"/>
+
     </LinearLayout>
 </LinearLayout>
