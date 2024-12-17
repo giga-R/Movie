@@ -1,10 +1,15 @@
 <LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:layout_margin="20dp"
+
+    android:background="@drawable/bg"
     android:gravity="center"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/baseline_movie_24"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Username :"
+        android:layout_margin="10dp"
         android:textSize="20dp"
         android:textColor="@color/black"
 
@@ -24,6 +30,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:drawableLeft="@drawable/baseline_account_circle_24"
         android:id="@+id/uname"
         />
@@ -31,6 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
         android:text="Password: "
         android:textSize="20dp"
         android:textColor="@color/black"
@@ -38,6 +46,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:drawableLeft="@drawable/baseline_key_24"
         android:inputType="textPassword"
         android:id="@+id/pass"
